@@ -62,7 +62,7 @@ function Navigation() {
 
   return (
     <nav className="fixed z-50 w-full">
-      <div className="mobile-navigation" data-extended={extended}>
+      <div className="mobile-navigation block md:hidden" data-extended={extended}>
         <div className="backdrop"></div>
         <div className={`absolute top-20 left-8 flex flex-col gap-4`}>
           <a className={`text-3xl whitespace-nowrap font-semibold transition-all duration-300 ease-in-out text-sky-950 transform ${ extended ? `translate-x-0 delay-250` : "-translate-x-100 delay-0"}`}>
