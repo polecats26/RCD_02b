@@ -49,11 +49,7 @@ function Footer() {
                   <td className="text-base font-thin text-right">open</td>
                 </tr>
                 <tr className="cursor-pointer" onClick={() => { window.open(officeConfig.phone.href) }}>
-                  <td className="text-white text-lg font-semibold pr-12">saturday</td>
-                  <td className="text-base font-thin text-right">call for appt.*</td>
-                </tr>
-                <tr className="pt-8 cursor-not-allowed">
-                  <td className="text-white text-lg font-semibold pr-12">sunday</td>
+                  <td className="text-white text-lg font-semibold pr-12">saturday - sunday</td>
                   <td className="text-base font-thin text-right">closed</td>
                 </tr>
               </tbody>

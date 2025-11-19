@@ -48,7 +48,8 @@ function Services() {
         <div className="flex flex-col md:flex-row gap-8 items-stretch justify-center w-full ">
           <ServiceCategory title="Essential Dental Care">
             <ul>
-              <li>Crowns & Bridges</li>
+              <li>Single-Visit Crowns</li>
+              <li>Bridges</li>
               <li>Implant Restorations</li>
               <li>Metal-free Filings</li>
               <li>Oral Hygiene & Preventive</li>
@@ -56,9 +57,9 @@ function Services() {
               <li>Dentures</li>
               <li>Gum Treatment</li>
               <li>Root Canals</li>
-              <li>Extractions</li>
+              <li>Oral Surgery</li>
               <li>Retainers/Mouthguards</li>
-              <li>Clear Aligners Ortho Treatment</li>
+              <li>Clear Aligners Orthodontics</li>
             </ul>
           </ServiceCategory>
           <ServiceCategory title="Cosmetic Dentistry">

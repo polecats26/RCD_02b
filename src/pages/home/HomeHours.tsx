@@ -1,6 +1,8 @@
 import { officeConfig } from "../../config/site"
+import { useNavigate } from "react-router-dom"
 
 function HomeHours() {
+  const navigate = useNavigate()
   return (
     <div className="office-hours py-12 bg-linear-to-bl from-sky-950 to-sky-700">
       <div className="max-w-6xl mx-auto px-8">
@@ -17,20 +19,15 @@ function HomeHours() {
           <div></div>
           <div 
             className="col-span-5 bg-cyan-300 rounded-lg p-4 py-4 text-center text-white font-semibold shadow-lg shadow-cyan-500/50 cursor-pointer"
-            onClick={ () => { window.open(officeConfig.appointments.href) } }
+            onClick={ () => {navigate('/appointments') } }
           >
             <div className="drop-shadow-[0_1px_2px_rgba(0,0,0,0.5)] text-base md:text-xl">open</div>
           </div>
-          <div
-            className="bg-linear-to-b from-cyan-500 to-cyan-700 rounded-lg py-4 text-center text-white font-semibold shadow-lg shadow-cyan-500/50 cursor-pointer"
-            onClick={ () => { document.location.href = officeConfig.phone.href } }
-          >
-            <div className="text-2xl md:text-lg"><span className="hidden md:inline-block">call</span>*</div>
-          </div>
+          <div></div>
         </div>
-        <div className="mt-8 text-sm text-cyan-500 text-center">
+        {/* <div className="mt-8 text-sm text-cyan-500 text-center">
           <span className="text-white">*</span> call for appointment
-        </div>
+        </div> */}
       </div>
     </div>
   )
