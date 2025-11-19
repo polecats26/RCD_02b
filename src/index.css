@@ -214,7 +214,7 @@ h2.services {
 }
 
 .service-category ul li {
-  @apply font-light tracking-wider;
+  @apply font-light tracking-wider ;
 }
 
 /* FOOTER */

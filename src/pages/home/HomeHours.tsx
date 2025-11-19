@@ -1,4 +1,3 @@
-import { officeConfig } from "../../config/site"
 import { useNavigate } from "react-router-dom"
 
 function HomeHours() {
