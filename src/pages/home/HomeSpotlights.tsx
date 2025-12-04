@@ -13,9 +13,9 @@ function HomeSpotlights() {
   const Spotlight: React.FC<Spotlight> = ({label, icon_url, link_url, link_label, children}) => {
     return (
       <div className="flex-1 relative">
-        <img src={`assets/home/${ icon_url }`} className="mb-4 w-[80px] md:w-[100px] lg:w-[120px] mx-auto transition-all duration-300 " />
+        <img src={`assets/home/${ icon_url }`} className="mb-4 w-20 md:w-[100px] lg:w-[120px] mx-auto transition-all duration-300 " />
         <h2 className="text-center text-sky-800 text-xl font-bold select-none mb-4">{ label }</h2>
-        <div className="text-black text-center max-w-5/6 md:max-w-[250px] mx-auto leading-[20px] mb-[50px]">{ children }</div>
+        <div className="text-black text-center max-w-5/6 md:max-w-[250px] mx-auto leading-5 mb-[50px]">{ children }</div>
         <div className="text-center w-full absolute bottom-0">
           <Link to={ link_url } className="rounded-full py-1 md:py-2 px-8 bg-cyan-400 font-semibold hover:bg-sky-600 transition-all duration-300 box-border">{ link_label }</Link>
         </div>
@@ -26,7 +26,7 @@ function HomeSpotlights() {
   return (
     <div className="w-full bg-white pb-12 pt-[70px] md:pt-[100px]">
       <div className="max-w-6xl mx-auto px-8">
-        <h1 className="gradient-header text-center text-3xl md:text-4xl mb-12">Better Dental Care</h1>
+        {/* <h1 className="gradient-header text-center text-3xl md:text-4xl mb-12">Better Dental Care</h1> */}
         <div className="w-full flex flex-col md:flex-row md:items-stretch gap-12 md:gap-4">
           <Spotlight 
             icon_url="icon_office.svg"
