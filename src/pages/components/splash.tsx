@@ -7,7 +7,7 @@ type Splash = {
 const Splash: React.FC<Splash> = ({ imageUrl, title, children }) => {
   const TitleNode = () => {
     if (typeof title === "string") {
-      return <div className="text-[40px] md:text-[40px] w-5/6 lg:text-[70px] xl:text-80px] font-semibold leading-10 md:leading-10 lg:leading-[70px] xl:leading-[80px] mb-12">
+      return <div className="text-[40px] md:text-[40px] w-5/6 lg:text-[70px] xl:text-80px] font-light cinzel tracking-widest leading-10 md:leading-10 lg:leading-[70px] xl:leading-[80px] mb-12">
         { title }
       </div>
     }

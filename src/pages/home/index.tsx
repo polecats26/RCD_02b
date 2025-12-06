@@ -17,7 +17,7 @@ function Home() {
               Welcome to<br/>
               <span className="text-lg font-semibold">Dr. Chao and Dr. Rangel's Office!</span>
             </div>
-            <div className="text-[40px] md:text-[40px] w-5/6 lg:text-[70px] xl:text-[90px] font-semibold leading-[40px] md:leading-[40px] lg:leading-[70px] xl:leading-[90px] mb-12">
+            <div className="cinzel text-[50px] md:text-[60px] w-5/6 lg:text-[70px] xl:text-[80px] leading-[60px] md:leading-[60px] lg:leading-[70px] xl:leading-[80px] mb-12 pb-8 border-b border-white tracking-widest">
               Patients<br/>
               First
             </div>

@@ -15,8 +15,8 @@ console.log('import.meta.env.VITE_GOOGLEMAPS_API_KEY', import.meta.env.VITE_GOOG
     <>
       <div className="bg-white py-8">
         <div className="max-w-6xl mx-auto px-12 text-center">
-          <h1 className="gradient-header text-2xl md:text-3xl">Conveniently located in West Los Angeles</h1>
-          <div className="pt-4 text-sky-900">
+          <h1 className="gradient-header text-2xl md:text-3xl cinzel"><span className="text-lg whitespace-nowrap tracking-normal md:tracking-widest">Conveniently located in</span><br/> West Los Angeles</h1>
+          <div className="pt-4 text-sky-900 font-light">
             { address.street1 }<br/>
             { address.city }, { address.state } { address.zip }
           </div>

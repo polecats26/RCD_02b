@@ -38,7 +38,7 @@ function Services() {
       ]
     },
     "fillings": {
-      title: "Metal-free Fillings",
+      title: "Mercury-free Fillings",
       numSlides: 1,
       slides: [
         { before: "/assets/services/metalfree_before.43e9e03b.jpg", after: "/assets/services/metalfree_after.77313109.jpg" }
@@ -109,7 +109,7 @@ function Services() {
   const ServiceCategory: React.FC<ServiceCategory> = ({title, children}) => {
     return (
       <div className="flex-1 p-8 rounded-xl bg-linear-to-b from-white/10 to-white/20 service-category transition-all duration-300 border border-white/30">
-        <h2 className="services">{ title }</h2>
+        <h2 className="services cinzel">{ title }</h2>
         { children }
       </div>
     )
@@ -156,8 +156,8 @@ function Services() {
   return (
     <div id="services" className="bg-linear-to-b from-sky-700 to-sky-900 py-12">
       <div className="text-center mb-8">
-        <div className="text-cyan-400 font-semibold text-base tracking-wider">Our Services</div>
-        <div className="text-white font-semibold text-3xl md:text-4xl xl:text-5xl">Get the Care You Need</div>
+        <div className="text-cyan-400 font-light cinzel tracking-wide text-base">Our Services</div>
+        <div className="text-white font-light cinzel tracking-wider text-3xl md:text-4xl xl:text-5xl">Get the Care You Need</div>
       </div>
       <div className="text-white max-w-6xl mx-auto px-8">
         <div className="text-center mb-8">
@@ -171,9 +171,9 @@ function Services() {
               <li className="cursor-pointer group" onClick={ () => { openModal('crowns') } }>Single-Visit Crowns <img src="/assets/icons/open_in_new.svg" className="w-4 h-4 inline-block opacity-50 group-hover:opacity-100" alt="View Crowns" /></li>
               <li>Bridges</li>
               <li>Implant Restorations</li>
-              <li className="cursor-pointer group" onClick={ () => { openModal('fillings') } }>Metal-free Fillings <img src="/assets/icons/open_in_new.svg" className="w-4 h-4 inline-block opacity-50 group-hover:opacity-100" alt="View Metal-free Fillings" /></li>
+              <li className="cursor-pointer group" onClick={ () => { openModal('fillings') } }>Mercury-free Fillings <img src="/assets/icons/open_in_new.svg" className="w-4 h-4 inline-block opacity-50 group-hover:opacity-100" alt="View Metal-free Fillings" /></li>
               <li className="cursor-pointer group" onClick={ () => { openModal('hygiene') } }>Oral Hygiene & Preventive <img src="/assets/icons/open_in_new.svg" className="w-4 h-4 inline-block opacity-50 group-hover:opacity-100" alt="View Metal-free Fillings" /></li>
-              <li>Dental X-Rays</li>
+              <li>Digital X-Rays</li>
               <li>Dentures</li>
               <li>Gum Treatment</li>
               <li>Root Canals</li>
@@ -202,8 +202,8 @@ function Services() {
                   transition
                   className="w-full max-w-md rounded-xl bg-white/40 p-6 backdrop-blur-2xl duration-300 ease-out data-closed:transform-[scale(95%)] data-closed:opacity-0"
                 >
-                  <DialogTitle as="h3" className="text-lg font-semibold text-white mb-2">
-                    <div className="drop-shadow-lg font-bold">{ currentModalData?.title }</div>
+                  <DialogTitle as="h3" className="text-xl font-semibold text-white mb-2 drop-shadow-[0_1px_1px_rgba(0,0,0,0.5)]">
+                    <div className="drop-shadow-lg font-light cinzel tracking-widest text-center">{ currentModalData?.title }</div>
                   </DialogTitle>
                   <div className="w-full h-5/6 max-w-[310px] mx-auto">
                     {currentModalData && (
@@ -225,7 +225,7 @@ function Services() {
                     >
                       Dismiss
                     </Button>
-                  </div>
+                  </div>``
                 </DialogPanel>
               </div>
             </div>

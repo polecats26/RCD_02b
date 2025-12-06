@@ -5,7 +5,7 @@ function HomeHours() {
   return (
     <div className="office-hours py-12 bg-linear-to-bl from-sky-950 to-sky-700">
       <div className="max-w-6xl mx-auto px-8">
-        <h1 className="text-center text-3xl md:text-4xl font-bold mb-8 text-transparent bg-clip-text bg-linear-to-bl from-white via-white to-cyan-200 drop-shadow-[0_1px_0px_rgba(0,0,0,0.5)]">Office Hours</h1>
+        <h1 className="text-center text-3xl md:text-4xl font-light cinzel tracking-widest mb-8 text-transparent bg-clip-text bg-linear-to-bl from-white via-white to-cyan-200 drop-shadow-[0_1px_0px_rgba(0,0,0,0.5)]">Office Hours</h1>
         <div className="grid grid-cols-7 gap-2">
           <div className="office-hours-day-header">s</div>
           <div className="office-hours-day-header">m</div>

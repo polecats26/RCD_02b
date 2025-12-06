@@ -39,7 +39,7 @@ function Footer() {
             </div>
           </div>
           <div className="flex-1 group" >
-            <h2 className="footer-header">
+            <h2 className="footer-header cinzel tracking-widest">
               office hours
             </h2>
             <table>
@@ -55,8 +55,8 @@ function Footer() {
               </tbody>
             </table>
           </div>
-          <div className="flex-1 md:text-right group">
-            <h2 className="footer-header">
+          <div className="flex-1 md:text-right group pr-8">
+            <h2 className="footer-header cinzel tracking-widest">
               our office
             </h2>
             <ul className="text-xs md:text-sm lg:text-base font-light">

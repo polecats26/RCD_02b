@@ -46,6 +46,10 @@ h1.gradient-header {
   @apply text-cyan-400 font-bold text-transparent bg-clip-text bg-gradient-to-bl from-cyan-400 to-sky-700;
 }
 
+h1.cinzel {
+  @apply font-normal tracking-widest;
+}
+
 .button.primary {
   @apply rounded-full py-1 md:py-2 px-8 bg-cyan-400 font-semibold hover:bg-sky-600 transition-all duration-300 box-border;
 }
@@ -202,7 +206,7 @@ body:has(#nav-button[data-extended="true"]) .mobile-navigation-logo {
 
 /* SERVICES */
 h2.services {
-  @apply font-semibold text-xl md:text-xl lg:text-2xl drop-shadow-[0_1px_1px_rgba(0,0,0,0.5)] mb-6 border-b border-cyan-400;
+  @apply font-light text-xl md:text-xl lg:text-2xl drop-shadow-[0_1px_1px_rgba(0,0,0,0.5)] mb-6 border-b border-cyan-400;
 }
 
 .service-category ul {
@@ -228,7 +232,7 @@ footer a {
 }
 
 .footer-header {
-  @apply text-[40px] md:text-[40px] font-semibold opacity-70 group-hover:opacity-100 transition-opacity duration-300 select-none;
+  @apply text-[30px] md:text-[30px] font-light opacity-70 group-hover:opacity-100 transition-opacity duration-300 select-none;
 }
 
 /* MAP */

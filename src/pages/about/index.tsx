@@ -17,7 +17,7 @@ function AboutUs() {
         <div className="max-w-6xl mx-auto px-8">
           <div className="flex flex-col md:flex-row gap-8 w-full">
             <div className="order-1 flex-2 md:pt-12">
-              <h2 className="font-semibold text-cyan-600 text-2xl md:text-4xl mb-4">{title}</h2>
+              <h2 className="font-light cinzel tracking-wide text-cyan-600 text-2xl md:text-4xl mb-4">{title}</h2>
               <div className="text-sm leading-6 w-2/3 text-sky-900 mr-auto">
                 { children }
               </div>
@@ -41,7 +41,7 @@ function AboutUs() {
       <div className="max-w-6xl mx-auto px-8">
         <div className="flex flex-col md:flex-row gap-8 w-full">
           <div className="order-1 md:order-0 md:flex-2 md:text-right md:pt-12">
-            <h2 className="font-semibold  text-cyan-600 text-2xl md:text-4xl mb-4">{ title }</h2>
+            <h2 className="font-light cinzel tracking-wide  text-cyan-600 text-2xl md:text-4xl mb-4">{ title }</h2>
             <div className="text-sm leading-6 w-2/3 text-sky-900 md:ml-auto">
               { children }
             </div>
@@ -70,8 +70,8 @@ function AboutUs() {
         Located on the boundary of Santa Monica and Brentwood, our modern dental office in West Los Angeles is dedicated to providing exceptional care and a positive experience for&nbsp;all&nbsp;patients.    
       </Splash>
       <div className="text-center bg-white pt-12 pb-8">
-        <div className="text-cyan-400 font-semibold text-base tracking-wider">Our Office</div>
-        <div className="text-sky-900 font-bold text-3xl md:text-4xl xl:text-5xl">Take the Virtual Tour</div>
+        <div className="text-cyan-400 font-normal text-base tracking-wider cinzel">Our Office</div>
+        <div className="text-sky-900 font-light cinzel tracking-widest text-3xl md:text-4xl xl:text-5xl">Virtual Tour</div>
       </div>
       <div className="px-8 bg-white">
         <div className="max-w-6xl mx-auto ">
@@ -88,8 +88,8 @@ function AboutUs() {
         </div>
       </div>
       <div className="text-center bg-white pt-12">
-        <div className="text-cyan-400 font-semibold text-base tracking-wider">Our Staff</div>
-        <div className="text-sky-900 font-bold text-3xl md:text-4xl xl:text-5xl">Meet our Dentists</div>
+        <div className="text-cyan-400 font-normal text-base tracking-wider cinzel">Our Staff</div>
+        <div className="text-sky-900 font-light cinzel tracking-widest text-3xl md:text-4xl xl:text-5xl">Meet our Dentists</div>
       </div>
       <ProfileSpotlight 
         url="/about/drchao"
