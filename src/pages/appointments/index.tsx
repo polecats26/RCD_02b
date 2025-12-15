@@ -12,7 +12,7 @@ function Appointments() {
               Welcome to<br/>
               <span className="text-lg font-semibold">Dr. Chao and Dr. Rangel's Office!</span>
             </div>
-            <div className="text-[40px] md:text-[30px] w-5/6 lg:text-[50px] xl:text-[60px] font-light cinzel tracking-widest leading-[40px] md:leading-[30px] lg:leading-[50px] xl:leading-[60px] mb-12">
+            <div className="text-[40px] md:text-[30px] w-5/6 lg:text-[50px] xl:text-[60px] font-light cinzel tracking-widest leading-[40px] md:leading-[30px] lg:leading-[50px] xl:leading-[60px] mb-12 text-sky-700">
               <div className="text-[24px] lg:text-[44px] leading-10 cinzel">Book an</div>
               Appointment
             </div>

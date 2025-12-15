@@ -134,7 +134,7 @@ function Navigation() {
                   return <NavLink 
                     to={item.url}
                     key={`desktop-nav-item-${ndx}`}
-                    className={`px-2 relative text-sm lg:text-base xl:text-xl whitespace-nowrap font-semibold ${item.classes ?? ''} transition-all duration-300 ${ scrolledPastPoint ? "text-sky-900" : "text-white"}`}
+                    className={`px-2 relative text-sm lg:text-base xl:text-xl whitespace-nowrap font-semibold ${item.classes ?? ''} transition-all duration-300 ${ scrolledPastPoint ? "text-sky-900" : "text-sky-900"}`}
                     >
                       {item.label}
                     </NavLink>

@@ -46,6 +46,10 @@ h1.gradient-header {
   @apply text-cyan-400 font-bold text-transparent bg-clip-text bg-gradient-to-bl from-cyan-400 to-sky-700;
 }
 
+.gradient-title {
+  @apply text-transparent bg-clip-text bg-gradient-to-bl from-cyan-400 to-sky-700;
+}
+
 h1.cinzel {
   @apply font-normal tracking-widest;
 }

@@ -24,7 +24,7 @@ function HomeSpotlights() {
   }
 
   return (
-    <div className="w-full bg-white pb-12 pt-[70px] md:pt-[100px]">
+    <div className="w-full bg-gray-100 pb-12 pt-[70px] md:pt-[100px]">
       <div className="max-w-6xl mx-auto px-8">
         {/* <h1 className="gradient-header text-center text-3xl md:text-4xl mb-12">Better Dental Care</h1> */}
         <div className="w-full flex flex-col md:flex-row md:items-stretch gap-12 md:gap-4">
